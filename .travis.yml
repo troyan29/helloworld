@@ -2,4 +2,4 @@ language: php
 php:
   - 5.6
 
-phpunit
+script: phpunit test/

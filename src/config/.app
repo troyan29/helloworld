@@ -1,0 +1,6 @@
+
+DEFAULT_CONTROLLER=HomeController:index
+ENCRYPTION_KEY=asodiuasodiu98u98uoij
+DEBUG=true
+NOT_FOUND_CONTROLLER=NotFoundController:index
+

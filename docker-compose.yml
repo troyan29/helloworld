@@ -1,1 +1,13 @@
-build: .
+base:
+    build: docker/base
+    command: echo true
+
+web:
+  build: docker/php/
+  links:
+    - database
+  volumes:
+    - ./src:/var/www/www.testing.local
+
+database:
+  build: docker/mysql/

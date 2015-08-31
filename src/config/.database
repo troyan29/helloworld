@@ -1,0 +1,5 @@
+; This is the configuration file
+DB_HOST=localhost
+DB_USER=root
+DB_NAME=hi
+DB_PASS=root

@@ -5,6 +5,6 @@ php:
 script: phpunit src/tests/
 
 before_script:
-	- cd src/
+	- cd ./src/
 
 	- composer install

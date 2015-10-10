@@ -8,6 +8,12 @@ web:
     - database
   volumes:
     - ./src:/var/www/www.testing.local
+  ports:
+    - "80:80"
+  expose:
+    - "9000"
 
 database:
   build: docker/mysql/
+  ports:
+    - "3306:3306"

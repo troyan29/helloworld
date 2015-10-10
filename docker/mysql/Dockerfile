@@ -15,5 +15,3 @@ RUN /bin/bash -c "/usr/bin/mysqld_safe &" && \
   mysql -u root -proot < /tmp/sakila-data.sql
 
 CMD ["mysqld"]
-
-EXPOSE 3306

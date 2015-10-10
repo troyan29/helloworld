@@ -20,4 +20,3 @@ RUN mv composer.phar /usr/local/bin/composer
 
 
 CMD service php5-fpm start && nginx -g 'daemon off;'
-EXPOSE 80

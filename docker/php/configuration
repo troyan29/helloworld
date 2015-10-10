@@ -14,7 +14,7 @@ server {
 
         root /var/www/www.testing.local;
 
-        index index.html index.htm index.nginx-debian.html index.php;
+        index index.php index.html index.htm index.nginx-debian.html;
 
         server_name testing.local www.testing.local;
 
